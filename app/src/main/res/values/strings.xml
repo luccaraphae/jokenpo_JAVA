@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">jokenpo</string>
+    <string name="botao">botao</string>
+    <string name="logo">logo</string>
+    <string name="vs">VS.</string>
+    <string name="imagem_jogador_pc">imagem jogador pc</string>
+    <string name="op_o_papel">opção papel</string>
+    <string name="op_o_pedra">opção pedra</string>
+    <string name="op_o_tesoura">opção tesoura</string>
+    <string name="imagem_jogador_2">imagem jogador 2</string>
+    <string name="pc">PC</string>
+    <string name="voc">VOCÊ</string>
+</resources>
