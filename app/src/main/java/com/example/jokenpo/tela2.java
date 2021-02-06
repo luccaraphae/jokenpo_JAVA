@@ -17,21 +17,21 @@ public class tela2 extends AppCompatActivity {
     private ImageView imgMaquina, imgJogador;
     private ImageButton btPedra, btPapel, btTesoura;
     private TextView txtResultado;
-    //declarando vetor
-    //private String[] jokenpo={"pedra","papel","tesoura"};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela2);
 
-        //referenciando os objetos
+        //referenciando aos objetos
         imgMaquina=(ImageView)findViewById(R.id.imgPC);
         imgJogador=(ImageView)findViewById(R.id.imgJogador);
         btPedra=(ImageButton)findViewById(R.id.btn1);
         btPapel=(ImageButton)findViewById(R.id.btn2);
         btTesoura=(ImageButton)findViewById(R.id.btn3);
         txtResultado=(TextView) findViewById(R.id.txtStatus);
+
 
         btPedra.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,6 +62,7 @@ public class tela2 extends AppCompatActivity {
                          break;
                      }
 
+                     //tesoura
                      case 2:{
                          imgMaquina.setImageDrawable(ContextCompat.getDrawable(tela2.this,R.drawable.dtesoura));
                          imgJogador.setImageDrawable(ContextCompat.getDrawable(tela2.this,R.drawable.pedra));
@@ -104,6 +105,7 @@ public class tela2 extends AppCompatActivity {
                         break;
                     }
 
+                    //tesoura
                     case 2:{
                         imgMaquina.setImageDrawable(ContextCompat.getDrawable(tela2.this,R.drawable.tesoura));
                         imgJogador.setImageDrawable(ContextCompat.getDrawable(tela2.this,R.drawable.dpapel));
@@ -146,6 +148,7 @@ public class tela2 extends AppCompatActivity {
                         break;
                     }
 
+                    //tesoura
                     case 2:{
                         imgMaquina.setImageDrawable(ContextCompat.getDrawable(tela2.this,R.drawable.tesoura));
                         imgJogador.setImageDrawable(ContextCompat.getDrawable(tela2.this,R.drawable.tesoura));
