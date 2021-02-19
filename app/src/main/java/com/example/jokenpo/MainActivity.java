@@ -9,15 +9,14 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageButton imgStart;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imgStart=(ImageButton)findViewById(R.id.imgJogar);
+        ImageButton imgStart = findViewById(R.id.imgJogar);
 
+        //transição de tela
         imgStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
