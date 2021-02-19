@@ -1,2 +1,2 @@
-# jokenpo_JAVA
-Jogo programado em conceitos básicos em java. O famoso game Pedra, papel ou tesoura na verdade jogador versus PC.
+# Jokenpô em JAVA
+Jogo programado em conceitos básicos em java. O famoso game Pedra, papel ou tesoura na versão jogador versus PC.
